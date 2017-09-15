@@ -1,0 +1,95 @@
+
+body {
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  justify-content: center;
+  background-image: radial-gradient(#e4eaee 40%, transparent 0),
+  radial-gradient(#e4eaee 40%, transparent 0);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+.main-header {
+  font-family: 'Playfair Display', serif;
+  font-size: 54px;
+  margin: 20px 0;
+  background-color: #D7DDE2;
+  padding: 15px;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-header, .todo-form, .todo-list-item {
+  border-radius: 5px;
+}
+
+input, textarea {
+  border-radius: 2px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.todo-list li {
+  margin: 15px;
+}
+
+.todo-list h3:hover {
+  cursor: pointer;
+}
+.main-content {
+  text-align: center;
+}
+
+.todo-form {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #D7DDE2;
+  padding: 10px;
+}
+
+.todo-form label {
+  display: inline-grid;
+}
+
+#inputText {
+  margin: 10px;
+}
+
+.todo-body {
+  margin: 10px 0;
+}
+
+.submit {
+  margin: 15px auto;
+  width: 50%;
+}
+
+.detail-view {
+  margin-top: 10px;
+}
+
+h4 {
+  margin: 10px 0;
+}
+
+.todo-list-item {
+  background-color: #D7DDE2;
+  border: 1px solid #C3C8CC;
+  margin: 5px 0;
+}
+
+.done-button {
+  margin-bottom: 10px;
+}
+
+.todo-button {
+  margin-bottom: 10px;
+}
